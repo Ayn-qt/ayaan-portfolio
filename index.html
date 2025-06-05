@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayaan Shaikh | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      margin-bottom: 1rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .project-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-4px);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #111;
+      color: white;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ayaan Shaikh</h1>
+  <p>Developer | Student | Dreamer</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>Hi! I'm Ayaan — a tech enthusiast who loves building cool stuff with code. I'm currently learning web development and exploring new technologies like Flutter, Python, and more.</p>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project-card">
+      <h3>Farm-to-Table App</h3>
+      <p>An app that connects farmers directly to consumers. Built using Flutter and Firebase.</p>
+    </div>
+    <div class="project-card">
+      <h3>AI Ethics Scoring System</h3>
+      <p>An AI-powered platform that scores decisions based on religious ethical principles.</p>
+    </div>
+    <div class="project-card">
+      <h3>College Club Dashboard</h3>
+      <p>A Streamlit-based app for event approvals and room booking automation.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:ayaan@example.com">ayaan@example.com</a></p>
+  <p>GitHub: <a href="https://github.com/ayaanshaikh" target="_blank">github.com/ayaanshaikh</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Ayaan Shaikh. All rights reserved.
+</footer>
+
+</body>
+</html>
